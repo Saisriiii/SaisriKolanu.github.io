@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: #ffffff;
   color: #333;
 }
 
@@ -17,18 +17,41 @@ nav a {
   margin: 0 1rem;
   color: white;
   text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 section {
   padding: 2rem;
+  max-width: 900px;
+  margin: auto;
 }
 
 h2 {
   color: #004aad;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 2rem;
 }
 
 footer {
   background-color: #f1f1f1;
   text-align: center;
   padding: 1rem;
+  margin-top: 2rem;
+}
+
+a {
+  color: #004aad;
+}
+
+a:hover {
+  color: #002f6c;
 }
